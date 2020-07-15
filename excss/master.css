@@ -1,0 +1,73 @@
+
+/* ex1 */
+.ec1{ border:1px solid rgb(175, 172, 172);  padding: 20px 30px 10px 30px; width:200px; margin:50px  auto;}
+.first{color:red ; font-size: x-large;}
+.second{color:green; font-size: x-large;}
+
+
+/*  ex2   */
+.ec2{border:1px solid rgb(175, 172, 172); width: 900px;  margin: auto; padding:20px}
+.ec2 h1{text-align: center;}
+.ec2 p{text-align: center;}
+.ec2 img {padding-left:340px;}
+.ec2 span{font-weight: bolder;}
+.ec2 h3{background: rgb(37, 37, 37); color: white; text-align: center;}
+.ec2 div{background: rgb(228, 226, 226); padding-bottom: 15px;}
+.ec2 p+div{width:400px}
+.ec2 ul{list-style-type: square;}
+.ec2 div a{padding-left: 400px ; color: rgb(37, 37, 187);}
+div input{margin: 10px;}
+
+
+/*  ex3   */
+.ec3 {border:1px solid rgb(175, 172, 172); width: 800px; height: 600px; margin: auto; padding: 5px; }
+.ec3 div{background: rgb(247, 245, 245); height: 600px;}
+img[alt="eye"]{padding:80px 0px 100px 150px}
+
+
+/* ex4   */
+.ec4 {border:1px solid rgb(175, 172, 172); width: 600px;  margin: auto; padding: 5px; height: 700px; }
+
+.ec4 .child {background: rgb(231, 229, 229); height: 600px; padding:50px 20px 50px 100px;}
+
+.ec4 .child div 
+   {
+      border:1px solid rgb(175, 172, 172); height: 550px; background: white; width:400px; 
+      padding:20px; font-family: Arial,tahoma; 
+    }
+
+.child span{color: blue;}  
+.child div p+p{color:rgb(100, 97, 97)}
+
+input[value="this item ships to iraq"]
+  {  background: rgb(82, 102, 131); color:white;
+     text-align: center; padding: 5px; border-radius: 5px;
+  }
+
+.child p~h5{color: rgb(64, 64, 207); float: right;}
+
+
+/*  ex5    */
+.ec5 {border:1px solid rgb(175, 172, 172);  margin: auto; padding: 5px;   width:66%; height:1140px;}
+
+.ec5 .child {background: rgb(231, 229, 229); padding: 10px; height:98%}
+
+.ec5 .child div 
+   {
+      border:1px solid rgb(175, 172, 172); height:460px; background: white; width:300px;  
+       padding:2%; font-family: Arial,tahoma;  float: left; margin:  2px 5px;
+    }
+ 
+.ec5 .child img{width:200px; height:150px ;}
+.child a{text-decoration:none ;}  
+.child div p+p{color:rgb(100, 97, 97)}
+
+input[value="this item ships to iraq"]
+  {  background: rgb(82, 102, 131); color:white;
+     text-align: center; padding: 5px; border-radius: 5px;
+  }
+
+.child p~h5{color: rgb(64, 64, 207); float: right;}
+.child.clear{clear:left;}
+
+
